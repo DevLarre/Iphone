@@ -43,6 +43,7 @@ public class projectIphone {
 
         fotos.tirarFoto();
         fotos.visualizarFoto();
+        fotos.enviarFoto();
         fotos.deletarFoto();
 
         ReprodutorVideo reprodutorVideo = phone;

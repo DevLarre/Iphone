@@ -61,6 +61,11 @@ public class Iphone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
     }
 
     @Override
+    public void enviarFoto() {
+        System.out.println("Enviando Foto com Iphone");
+    }
+
+    @Override
     public void deletarFoto() {
         System.out.println("Deletando foto com Iphone");
     }
