@@ -4,4 +4,5 @@ public interface Email {
     void enviarEmail();
     void receberEmail();
     void deletarEmail();
+    void atualizarEmail();
 }
