@@ -1,7 +1,7 @@
 package org.example.navegadorInternet;
 
 public interface NavegadorInternet {
-    void exibirPagina();
+    void abrirNavegador();
     void adicionarNovaAba();
     void atualizarPagina();
     void fecharPagina();

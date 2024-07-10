@@ -51,76 +51,80 @@ public class Iphone implements AparelhoTelefonico, NavegadorInternet, Reprodutor
 
     @Override
     public void tirarFoto() {
-
+        System.out.println(" ");
+        System.out.println("Tirando foto com Iphone");
     }
 
     @Override
     public void visualizarFoto() {
-
+        System.out.println("Visualizando foto com Iphone");
     }
 
     @Override
     public void deletarFoto() {
-
+        System.out.println("Deletando foto com Iphone");
     }
 
     @Override
-    public void exibirPagina() {
-
+    public void abrirNavegador() {
+        System.out.println(" ");
+        System.out.println("Abrindo o Safari no Iphone");
     }
 
     @Override
     public void adicionarNovaAba() {
-
+        System.out.println("Abrindo nova aba no Safari");
     }
 
     @Override
     public void atualizarPagina() {
-
+        System.out.println("Atualizando página existente");
     }
 
     @Override
     public void fecharPagina() {
-
+        System.out.println("Fechando as páginas do Safari");
     }
 
     @Override
     public void tocarMusica() {
-
+        System.out.println(" ");
+        System.out.println("Tocando música no Iphone");
     }
 
     @Override
     public void pausarMusica() {
-
+        System.out.println("Pausando a música");
     }
 
     @Override
     public void selecionarMusica() {
-
+        System.out.println("Selecionando a música favorita");
     }
 
     @Override
     public void pararMusica() {
-
+        System.out.println("Parando de tocar música");
     }
 
     @Override
-    public void reproduceVideo() {
-
+    public void iniciarVideo() {
+        System.out.println(" ");
+        System.out.println("Iniciando video no Iphone");
     }
 
     @Override
     public void pausarVideo() {
-
+        System.out.println("Pausando video");
     }
 
     @Override
     public void selecionarVideo() {
-
+        System.out.println("Selecionando outro video");
     }
 
     @Override
     public void pararVideo() {
-
+        System.out.println("Parando video.");
     }
 }
